@@ -6,7 +6,6 @@ bool OffLineMsgModel::insert(int id, std::string msg) {
     
     sprintf(sql, "insert into offlinemessage values(%d, '%s')",
         id, msg.c_str());
-    LOG_INFO << "[offlineMsg] : " << sql;
     MySQL mysql;
     if(mysql.connect()) {
         if(mysql.update(sql)) {

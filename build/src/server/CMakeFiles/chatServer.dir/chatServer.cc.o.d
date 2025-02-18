@@ -310,4 +310,5 @@ src/server/CMakeFiles/chatServer.dir/chatServer.cc.o: \
  /usr/include/c++/14/mutex /usr/include/c++/14/bits/unique_lock.h \
  /home/wyxz/code/chatRoom/include/server/model/userModel.hpp \
  /home/wyxz/code/chatRoom/include/server/model/user.hpp \
- /home/wyxz/code/chatRoom/include/server/model/offlineMsgModel.hpp
+ /home/wyxz/code/chatRoom/include/server/model/offlineMsgModel.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/friendModel.hpp

@@ -47,6 +47,18 @@ void ChatService::login(const muduo::net::TcpConnectionPtr &conn, json &js, mudu
             respon["offlineMsg"] = vec;
             offlineMsgModel_.remove(id);
         }
+        std::vector<User> vec2 = friendModel_.query(id);
+        if(!vec2.empty()) {
+            std::vector<std::string> friendVec;
+            for(auto& it : vec2) {
+                json tmpjs;
+                tmpjs["id"] = it.getId();
+                tmpjs["name"] = it.getName();
+                tmpjs["state"] = it.getState();
+                friendVec.push_back(tmpjs.dump());
+            }
+            respon["friends"] = friendVec;
+        }
     }
     conn->send(respon.dump());
     return;
@@ -85,6 +97,15 @@ void ChatService::o2oChat(const muduo::net::TcpConnectionPtr& con, json& js, mud
     offlineMsgModel_.insert(toId, js.dump());
 }
 
+/*
+        可以过滤非法userId,在userModel_里边添加方法即可，但可能会查一遍数据库
+*/
+void ChatService::addFriend(const muduo::net::TcpConnectionPtr &con, json &js, muduo::Timestamp time) {
+    int userId = js["id"].get<int>();
+    int friendId = js["friendId"].get<int>();
+    friendModel_.insert(userId, friendId);
+}
+
 #include <algorithm>
 void ChatService::connectException(const muduo::net::TcpConnectionPtr& con) {
     User user;
@@ -102,6 +123,17 @@ void ChatService::connectException(const muduo::net::TcpConnectionPtr& con) {
         user.setState("offline");
         userModel_.updateState(user);
     }
+}
+
+//server quit execption
+/*
+1.reset user state
+...
+*/
+void ChatService::reset() {
+    std::lock_guard<std::mutex> lock(mtx_);
+    userModel_.resetState();
+    userConnMap_.clear();
 }
 
 HANDLER ChatService::getHandler(int typeId) {

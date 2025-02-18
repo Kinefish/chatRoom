@@ -295,6 +295,7 @@ src/server/CMakeFiles/chatServer.dir/chatService.cc.o: \
  /home/wyxz/code/chatRoom/include/server/model/userModel.hpp \
  /home/wyxz/code/chatRoom/include/server/model/user.hpp \
  /home/wyxz/code/chatRoom/include/server/model/offlineMsgModel.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/friendModel.hpp \
  /home/wyxz/code/chatRoom/include/public.hpp \
  /usr/local/include/muduo/base/Logging.h \
  /usr/local/include/muduo/base/LogStream.h \

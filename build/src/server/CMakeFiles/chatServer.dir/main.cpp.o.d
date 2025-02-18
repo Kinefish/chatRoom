@@ -260,4 +260,59 @@ src/server/CMakeFiles/chatServer.dir/main.cpp.o: \
  /usr/local/include/muduo/base/Mutex.h \
  /usr/local/include/muduo/base/CurrentThread.h \
  /usr/local/include/muduo/net/TimerId.h /usr/include/c++/14/iostream \
- /usr/include/c++/14/istream /usr/include/c++/14/bits/istream.tcc
+ /usr/include/c++/14/istream /usr/include/c++/14/bits/istream.tcc \
+ /home/wyxz/code/chatRoom/include/server/chatService.hpp \
+ /usr/include/c++/14/mutex /usr/include/c++/14/bits/chrono.h \
+ /usr/include/c++/14/ratio /usr/include/c++/14/limits \
+ /usr/include/c++/14/ctime /usr/include/c++/14/bits/parse_numbers.h \
+ /usr/include/c++/14/bits/unique_lock.h /usr/local/include/json.hpp \
+ /usr/include/c++/14/cassert /usr/include/c++/14/ciso646 \
+ /usr/include/c++/14/numeric /usr/include/c++/14/bits/stl_numeric.h \
+ /usr/include/c++/14/pstl/glue_numeric_defs.h /usr/include/c++/14/utility \
+ /usr/include/c++/14/bits/stl_relops.h /usr/include/c++/14/forward_list \
+ /usr/include/c++/14/bits/forward_list.h \
+ /usr/include/c++/14/bits/forward_list.tcc /usr/include/c++/14/valarray \
+ /usr/include/c++/14/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/14/bits/specfun.h \
+ /usr/include/c++/14/tr1/gamma.tcc \
+ /usr/include/c++/14/tr1/special_function_util.h \
+ /usr/include/c++/14/tr1/bessel_function.tcc \
+ /usr/include/c++/14/tr1/beta_function.tcc \
+ /usr/include/c++/14/tr1/ell_integral.tcc \
+ /usr/include/c++/14/tr1/exp_integral.tcc \
+ /usr/include/c++/14/tr1/hypergeometric.tcc \
+ /usr/include/c++/14/tr1/legendre_function.tcc \
+ /usr/include/c++/14/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/14/tr1/poly_hermite.tcc \
+ /usr/include/c++/14/tr1/poly_laguerre.tcc \
+ /usr/include/c++/14/tr1/riemann_zeta.tcc \
+ /usr/include/c++/14/bits/valarray_array.h \
+ /usr/include/c++/14/bits/valarray_array.tcc \
+ /usr/include/c++/14/bits/valarray_before.h \
+ /usr/include/c++/14/bits/slice_array.h \
+ /usr/include/c++/14/bits/valarray_after.h \
+ /usr/include/c++/14/bits/gslice.h \
+ /usr/include/c++/14/bits/gslice_array.h \
+ /usr/include/c++/14/bits/mask_array.h \
+ /usr/include/c++/14/bits/indirect_array.h \
+ /home/wyxz/code/chatRoom/include/server/model/userModel.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/user.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/offlineMsgModel.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/friendModel.hpp \
+ /usr/include/signal.h /usr/include/bits/signum-generic.h \
+ /usr/include/bits/signum-arch.h /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
+ /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/sigstksz.h /usr/include/bits/ss_flags.h \
+ /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/signal_ext.h

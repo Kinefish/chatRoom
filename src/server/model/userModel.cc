@@ -45,11 +45,21 @@ bool UserModel::updateState(User& user)
     char sql[1024] = {0};
     sprintf(sql,"update user set state = '%s' where id = '%d'",
         user.getState().c_str(), user.getId());
-    
     MySQL mysql;
     if(mysql.connect() && mysql.update(sql)) {
         return true;  
     }
     LOG_INFO << "[updateState user] error. sql : " << sql;
+    return false;
+}
+
+bool UserModel::resetState() {
+    char sql[1024] = "update user set state = 'offline' where state = 'online'";
+    
+    MySQL mysql;
+    if(mysql.connect() && mysql.update(sql)) {
+        return true;  
+    }
+    LOG_INFO << "[resetState user] error. sql : " << sql;
     return false;
 }
