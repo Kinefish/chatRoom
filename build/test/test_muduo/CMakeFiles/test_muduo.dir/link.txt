@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -rdynamic CMakeFiles/test_muduo.dir/test_muduo.cpp.o -o /home/wyxz/code/chatRoom/bin/test_muduo  -lmuduo_net -lmuduo_base -lpthread
