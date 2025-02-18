@@ -7,6 +7,7 @@
 #include "userModel.hpp"
 #include "offlineMsgModel.hpp"
 #include "friendModel.hpp"
+#include "groupModel.hpp"
 using json = nlohmann::json;
 /*
 singleton 即可
@@ -21,6 +22,9 @@ public:
     void reg(const muduo::net::TcpConnectionPtr&, json &, muduo::Timestamp);
     void o2oChat(const muduo::net::TcpConnectionPtr&, json &, muduo::Timestamp);
     void addFriend(const muduo::net::TcpConnectionPtr&, json &, muduo::Timestamp);
+    void createGroup(const muduo::net::TcpConnectionPtr&, json &, muduo::Timestamp);
+    void addGroup(const muduo::net::TcpConnectionPtr&, json &, muduo::Timestamp);
+    void groupChat(const muduo::net::TcpConnectionPtr&, json &, muduo::Timestamp);
 
     //client quit exeception
     void connectException(const muduo::net::TcpConnectionPtr&);
@@ -34,6 +38,7 @@ private:
     UserModel userModel_;
     OffLineMsgModel offlineMsgModel_;
     FriendModel friendModel_;
+    GroupModel groupModel_;
 
     //确保userConnMap_的线程安全
     std::mutex mtx_;

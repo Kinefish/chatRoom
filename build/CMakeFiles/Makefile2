@@ -129,7 +129,7 @@ test/test_muduo/clean: test/test_muduo/CMakeFiles/test_muduo.dir/clean
 test/test_muduo/CMakeFiles/test_muduo.dir/all:
 	$(MAKE) $(MAKESILENT) -f test/test_muduo/CMakeFiles/test_muduo.dir/build.make test/test_muduo/CMakeFiles/test_muduo.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/test_muduo/CMakeFiles/test_muduo.dir/build.make test/test_muduo/CMakeFiles/test_muduo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wyxz/code/chatRoom/build/CMakeFiles --progress-num=9,10 "Built target test_muduo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wyxz/code/chatRoom/build/CMakeFiles --progress-num=10,11 "Built target test_muduo"
 .PHONY : test/test_muduo/CMakeFiles/test_muduo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,12 +155,12 @@ test/test_muduo/CMakeFiles/test_muduo.dir/clean:
 src/server/CMakeFiles/chatServer.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/chatServer.dir/build.make src/server/CMakeFiles/chatServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/chatServer.dir/build.make src/server/CMakeFiles/chatServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wyxz/code/chatRoom/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target chatServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wyxz/code/chatRoom/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target chatServer"
 .PHONY : src/server/CMakeFiles/chatServer.dir/all
 
 # Build rule for subdir invocation for target.
 src/server/CMakeFiles/chatServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyxz/code/chatRoom/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyxz/code/chatRoom/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/CMakeFiles/chatServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyxz/code/chatRoom/build/CMakeFiles 0
 .PHONY : src/server/CMakeFiles/chatServer.dir/rule

@@ -250,6 +250,30 @@ model/friendModel.cc.s:
 	cd /home/wyxz/code/chatRoom/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/chatServer.dir/build.make src/server/CMakeFiles/chatServer.dir/model/friendModel.cc.s
 .PHONY : model/friendModel.cc.s
 
+model/groupModel.o: model/groupModel.cc.o
+.PHONY : model/groupModel.o
+
+# target to build an object file
+model/groupModel.cc.o:
+	cd /home/wyxz/code/chatRoom/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/chatServer.dir/build.make src/server/CMakeFiles/chatServer.dir/model/groupModel.cc.o
+.PHONY : model/groupModel.cc.o
+
+model/groupModel.i: model/groupModel.cc.i
+.PHONY : model/groupModel.i
+
+# target to preprocess a source file
+model/groupModel.cc.i:
+	cd /home/wyxz/code/chatRoom/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/chatServer.dir/build.make src/server/CMakeFiles/chatServer.dir/model/groupModel.cc.i
+.PHONY : model/groupModel.cc.i
+
+model/groupModel.s: model/groupModel.cc.s
+.PHONY : model/groupModel.s
+
+# target to generate assembly for a file
+model/groupModel.cc.s:
+	cd /home/wyxz/code/chatRoom/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/chatServer.dir/build.make src/server/CMakeFiles/chatServer.dir/model/groupModel.cc.s
+.PHONY : model/groupModel.cc.s
+
 model/offlineMsgModel.o: model/offlineMsgModel.cc.o
 .PHONY : model/offlineMsgModel.o
 
@@ -322,6 +346,9 @@ help:
 	@echo "... model/friendModel.o"
 	@echo "... model/friendModel.i"
 	@echo "... model/friendModel.s"
+	@echo "... model/groupModel.o"
+	@echo "... model/groupModel.i"
+	@echo "... model/groupModel.s"
 	@echo "... model/offlineMsgModel.o"
 	@echo "... model/offlineMsgModel.i"
 	@echo "... model/offlineMsgModel.s"

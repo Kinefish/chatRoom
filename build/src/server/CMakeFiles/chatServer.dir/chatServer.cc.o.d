@@ -311,4 +311,7 @@ src/server/CMakeFiles/chatServer.dir/chatServer.cc.o: \
  /home/wyxz/code/chatRoom/include/server/model/userModel.hpp \
  /home/wyxz/code/chatRoom/include/server/model/user.hpp \
  /home/wyxz/code/chatRoom/include/server/model/offlineMsgModel.hpp \
- /home/wyxz/code/chatRoom/include/server/model/friendModel.hpp
+ /home/wyxz/code/chatRoom/include/server/model/friendModel.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/groupModel.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/group.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/groupUser.hpp

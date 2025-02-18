@@ -304,6 +304,9 @@ src/server/CMakeFiles/chatServer.dir/main.cpp.o: \
  /home/wyxz/code/chatRoom/include/server/model/user.hpp \
  /home/wyxz/code/chatRoom/include/server/model/offlineMsgModel.hpp \
  /home/wyxz/code/chatRoom/include/server/model/friendModel.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/groupModel.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/group.hpp \
+ /home/wyxz/code/chatRoom/include/server/model/groupUser.hpp \
  /usr/include/signal.h /usr/include/bits/signum-generic.h \
  /usr/include/bits/signum-arch.h /usr/include/bits/types/sig_atomic_t.h \
  /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \

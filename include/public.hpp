@@ -8,6 +8,9 @@ enum MSG_TYPE {
     TYPE_REG_ACK,
     TYPE_MSG_ONE_2_ONE, //1-1聊天
     TYPE_ADD_FRIEND, //好友添加
+    TYPE_GROUP_CREATE,
+    TYPE_GROUP_ADD,
+    TYPE_GROUP_CHAT,
 };
 
 #endif

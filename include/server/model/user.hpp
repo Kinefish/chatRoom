@@ -16,7 +16,7 @@ public:
     void setName(const std::string name) { this->name_ = name; } 
     void setPassword(const std::string password) { this->password_ = password; } 
     void setState(const std::string state) { this->state_ = state; }
-private:
+protected:  //为了能在GroupUser中访问这些变量
     int id_;
     std::string name_;
     std::string password_;

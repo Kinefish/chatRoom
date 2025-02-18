@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/wyxz/code/chatRoom/src/server/db/db.cc" "src/server/CMakeFiles/chatServer.dir/db/db.cc.o" "gcc" "src/server/CMakeFiles/chatServer.dir/db/db.cc.o.d"
   "/home/wyxz/code/chatRoom/src/server/main.cpp" "src/server/CMakeFiles/chatServer.dir/main.cpp.o" "gcc" "src/server/CMakeFiles/chatServer.dir/main.cpp.o.d"
   "/home/wyxz/code/chatRoom/src/server/model/friendModel.cc" "src/server/CMakeFiles/chatServer.dir/model/friendModel.cc.o" "gcc" "src/server/CMakeFiles/chatServer.dir/model/friendModel.cc.o.d"
+  "/home/wyxz/code/chatRoom/src/server/model/groupModel.cc" "src/server/CMakeFiles/chatServer.dir/model/groupModel.cc.o" "gcc" "src/server/CMakeFiles/chatServer.dir/model/groupModel.cc.o.d"
   "/home/wyxz/code/chatRoom/src/server/model/offlineMsgModel.cc" "src/server/CMakeFiles/chatServer.dir/model/offlineMsgModel.cc.o" "gcc" "src/server/CMakeFiles/chatServer.dir/model/offlineMsgModel.cc.o.d"
   "/home/wyxz/code/chatRoom/src/server/model/userModel.cc" "src/server/CMakeFiles/chatServer.dir/model/userModel.cc.o" "gcc" "src/server/CMakeFiles/chatServer.dir/model/userModel.cc.o.d"
   )
